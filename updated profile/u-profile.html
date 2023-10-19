@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav - Developer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a:hover {
+        color: rgb(123, 123, 238);
+        font-size: 1.01rem;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 70px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 2.2rem;
+      }
+
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 90%;
+        margin: 100px 0;
+      }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        height: 10vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 50px 84px;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .image-top {
+        width: 50px;
+        position: relative;
+        top: -40px;
+        left: -25px;
+      }
+
+      .footer {
+        background-color: #0e0e1a;
+        height: 180px;
+      }
+
+      .footer {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        padding-top: 40px;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+
+      .centerdiv {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .bold {
+        height: 100px;
+        width: 100px;
+        background-color: #f5f6fa;
+        border-radius: 50px;
+        text-align: center;
+        margin: 10px;
+        line-height: 110px;
+        box-shadow: 1px 4px 2px 2px #dcdde1;
+      }
+
+      a i {
+        transition: all 0.3s linear;
+      }
+
+      a:hover i {
+        transform: scale(1.4);
+      }
+
+      .fa-linkedin {
+        color: #0097e6;
+      }
+
+      .fa-quora {
+        color: #d61010;
+      }
+
+      .fa-github {
+        color: #000000;
+      }
+
+      .fa-envelope {
+        color: #808080b4;
+      }
+
+      .heading {
+        color: #0097e6;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+      }
+
+      .heading > .ul {
+        color: #d61010;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gaurav's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hey, My name is <span class="purple">Gaurav</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons-inline-block">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="pg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Let's Connect</h1>
+      </section>
+      <div class="centerdiv">
+        <a
+          class="bold"
+          href="https://www.facebook.com/profile.php?id=100011402166157"
+          target="_blank"
+        >
+          <i class="fa fa-2x fa-facebook"> </i>
+        </a>
+        <a
+          class="bold"
+          href="https://www.linkedin.com/in/gaurav-kumar-430817251/"
+          target="_blank"
+        >
+          <i class="fa fa-2x fa-linkedin"> </i>
+        </a>
+        <a class="bold" href="https://mail.google.com/mail/u/0" target="_blank">
+          <i class="fa fa-2x fa-envelope"> </i>
+        </a>
+        <a class="bold" href="https://github.com/Plyger001" target="_blank">
+          <i class="fa fa-2x fa-github"> </i>
+        </a>
+        <a
+          class="bold"
+          href="https://www.quora.com/profile/Gaurav-Kumar-3032"
+          target="_blank"
+        >
+          <i class="fa fa-2x fa-quora"> </i>
+        </a>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Gaurav's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright © gauravsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "UI/UX Designer",
+          "Web Designer",
+          "Front-end Developer"
+        ],
+        typeSpeed: 50
+      });
+    </script>
+  </body>
+</html>
